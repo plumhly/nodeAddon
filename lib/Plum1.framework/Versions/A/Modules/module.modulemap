@@ -1,0 +1,6 @@
+framework module Plum1 {
+  umbrella header "Plum1.h"
+
+  export *
+  module * { export * }
+}
