@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "printf %d 10",
     "gyp:debug": "node-gyp rebuild --debug --v",
     "gyp:release": "node-gyp rebuild"
   },
@@ -13,6 +12,5 @@
   "license": "ISC",
   "dependencies": {
     "node-addon-api": "^4.2.0"
-  },
-  "devDependencies": {}
+  }
 }
